@@ -1,7 +1,7 @@
 /* hero section */
 
-.hero {
-    color: #fff;
+.background {    
+    position: relative;
     text-align: center;
     display: inline-block;    
     width: 100%;
@@ -10,37 +10,86 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-.hero .newlogo {
-    display: inline-block;
-    float: left;
     
     
 }
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;    
+    width: 100%;
+    
+    
+}
+
 .hero .navigation {
     display: inline-block;
     float: right;
+    position: relative;
+    margin: 10px;
+    
+    
+    
+    
+}
+.hero .newlogo {
+    display: block;
+    size: 25%;
+    /* width: 25%; */
+    float: left;
+    position: relative;
+    
+    
+    
     
 }
 .hero .navigation > a{
-    display: inline-block;
+    display:inline-block;
     float: left;
     color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 15px;
+
+    
+    
+}
+.hero .main {
+    display: block;    
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+   
 }
    
 .hero .welcometitle {
-    display: inline-block;    
-    width: 100%;
-    color: red;
-    font-size: 50px;
+    display: block;    
+    margin-bottom: 25px;   
+    font-family: 'Raleway', sans-serif; 
+    font-size: 35px;
+    color: rgb(196, 192, 192);
+    
+    
     
 }
 
 .hero .title {
     display: inline-block;
-    width: 100%;
-    color: violet;
-    font-size: 90px;
+    width: 100%;    
+    font-size: 80px;
+    margin-bottom: 45px;
+    
 }
 
 
