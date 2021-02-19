@@ -1,15 +1,46 @@
 /* hero section */
 
-
-
-.hero{
+.hero {
     color: #fff;
+    text-align: center;
     display: inline-block;    
     width: 100%;
-    min-height: 100vh;
+    height: 100vh; 
     background-image: url(/img/netlifyheader.png);
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+}
+.hero .newlogo {
+    display: inline-block;
+    float: left;
+    
+    
+}
+.hero .navigation {
+    display: inline-block;
+    float: right;
+    
+}
+.hero .navigation > a{
+    display: inline-block;
+    float: left;
+    color: white;
+}
+   
+.hero .welcometitle {
+    display: inline-block;    
+    width: 100%;
+    color: red;
+    font-size: 50px;
+    
+}
+
+.hero .title {
+    display: inline-block;
+    width: 100%;
+    color: violet;
+    font-size: 90px;
 }
 
 
