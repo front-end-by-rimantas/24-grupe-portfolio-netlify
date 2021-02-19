@@ -1,10 +1,11 @@
 @import './components/reset.css';
 @import './components/layout.css';
-@import './components/resume.css'
+@import './components/resume.css';
 
 /* CUSTOM ABOUT PAGE CSS */
 
    /* about (img3, h2, h3, text, form, buttons, repeated items per JS)*/
+   @import './about-me.css'
    /* Skills (h2, progress bars per JS) */
    /* Resume (forms per JS...?) */
    /* Counter (img, clock analogas tik statinis, skaiciai nesikeicia) */
