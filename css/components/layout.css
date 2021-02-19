@@ -47,7 +47,7 @@
 .container > .row > [class*='col-'],
 .container-fluid > .row > [class*='col-'] {
   float: left;
-  margin: 0px var(--half-gap);
+  margin: 20px var(--half-gap);
 }
 .container > .row > .col-1,
 .container-fluid > .row > .col-1 {
