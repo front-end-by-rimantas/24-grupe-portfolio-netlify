@@ -20,7 +20,7 @@ import { myServicesData } from './data/myServicesData.js';
 /* resume */
 /* counter */
 /* services */
-new Services('.rowServices', myServicesData)
+new Services('.item', myServicesData)
 /* portfolio */
 /* feedback */
 /* blog */
