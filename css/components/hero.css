@@ -1,12 +1,11 @@
 /* hero section */
 
 .background {    
-    position: relative;
-    text-align: center;
-    display: inline-block;    
+    position: relative;      
     width: 100%;
     height: 100vh; 
     background-image: url(/img/netlifyheader.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -24,8 +23,7 @@
 }
 
 .hero {
-    color: rgb(255, 255, 255);
-    text-align: center;
+    color: rgb(255, 255, 255);    
     display: inline-block;    
     width: 100%;
     
@@ -33,39 +31,46 @@
 }
 
 .hero .navigation {
-    display: inline-block;
-    float: right;
-    position: relative;
-    margin: 10px;
-    
-    
-    
-    
-}
-.hero .newlogo {
-    display: block;
-    size: 25%;
-    /* width: 25%; */
-    float: left;
-    position: relative;
-    
+    display: inline-block;     
+    width: 100%;      
+    position: absolute;
+    padding-top: 10px;
     
     
     
 }
-.hero .navigation > a{
-    display:inline-block;
+.hero .navigation .newlogo {
+    display: block;    
     float: left;
+    height: 40px;   
+    margin-top: 20px;  
+    padding-left: 20%;
+   
+     
+}
+.hero .navigation .links{
+   display: flex;   
+   margin-left: 55%;
+   margin-top: 10px;
+  
+   
+}  
+.hero .navigation .links > a{
+    display: block;        
+    float: left;  
     color: white;
     text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
     padding: 5px;
-    margin: 0 15px;
+    margin:  15px;   
+    
+}  
+    
 
-    
-    
-}
 .hero .main {
-    display: block;    
+    display: block;   
+    text-align: center; 
     width: 100%;
     position: absolute;
     top: 50%;
@@ -74,7 +79,7 @@
 }
    
 .hero .welcometitle {
-    display: block;    
+    display: inline-block;    
     margin-bottom: 25px;   
     font-family: 'Raleway', sans-serif; 
     font-size: 35px;
