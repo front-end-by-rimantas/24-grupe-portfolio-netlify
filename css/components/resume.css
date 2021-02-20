@@ -12,6 +12,8 @@
     font-size: 2.2rem;
     margin-bottom: 50px;
     text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
 }
 
 .resume-span {
@@ -21,10 +23,7 @@
 }
 
 .resume > .container > .row > .left-column {
-    width: 50%;
-    float: left;
-    padding: 50px 40px;
-    display: inline-block;
+    padding-right: 20px;
     text-align: right;
 }
 .resume > .container > .row > .left-column > .row-icon > .resume-icon{
@@ -52,10 +51,7 @@
 }
 
 .resume > .container > .row > .right-column {
-    padding: 50px 40px;
-    display: inline-block;
-    width: 50%;
-    text-align: left;
+    padding-left: 20px;
 }
 
 .resume-list > li {
@@ -103,4 +99,35 @@ h6 {
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column {
+        text-align: left;
+        margin-left: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column > .row-icon > .resume-icon{
+        float: left;
+        left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-column > .resume-list > li::after {
+        left: -6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .right-column > .row-icon > .resume-icon{
+        left: 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .resume-list > li {
+        padding: 30px 10px 10px 30px;
 }
