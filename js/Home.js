@@ -5,6 +5,8 @@
 /* resume */
 /* counter */
 /* services */
+import { Services } from './components/myServices.js';
+import { myServicesData } from './data/myServicesData.js';
 /* portfolio */
 /* feedback */
 /* blog */
@@ -18,6 +20,7 @@
 /* resume */
 /* counter */
 /* services */
+new Services('.rowServices', myServicesData)
 /* portfolio */
 /* feedback */
 /* blog */
