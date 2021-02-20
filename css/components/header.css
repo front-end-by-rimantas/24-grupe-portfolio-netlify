@@ -1,4 +1,4 @@
-/* hero section */
+/* header section */
 
 .background {    
     position: relative;      
@@ -22,7 +22,7 @@
     background: rgba(0, 0, 0, 0.6);
 }
 
-.hero {
+.header {
     color: rgb(255, 255, 255);    
     display: inline-block;    
     width: 100%;
@@ -30,7 +30,7 @@
     
 }
 
-.hero .navigation {
+.header .navigation {
     display: inline-block;     
     width: 100%;      
     position: absolute;
@@ -39,7 +39,7 @@
     
     
 }
-.hero .navigation .newlogo {
+.header .navigation .newlogo {
     display: block;    
     float: left;
     height: 40px;   
@@ -48,14 +48,14 @@
    
      
 }
-.hero .navigation .links{
+.header .navigation .links{
    display: flex;   
    margin-left: 55%;
    margin-top: 10px;
   
    
 }  
-.hero .navigation .links > a{
+.header .navigation .links > a{
     display: block;        
     float: left;  
     color: white;
@@ -68,7 +68,7 @@
 }  
     
 
-.hero .main {
+.header .main {
     display: block;   
     text-align: center; 
     width: 100%;
@@ -78,7 +78,7 @@
    
 }
    
-.hero .welcometitle {
+.header .welcometitle {
     display: inline-block;    
     margin-bottom: 25px;   
     font-family: 'Raleway', sans-serif; 
@@ -89,7 +89,7 @@
     
 }
 
-.hero .title {
+.header .title {
     display: inline-block;
     width: 100%;    
     font-size: 80px;
