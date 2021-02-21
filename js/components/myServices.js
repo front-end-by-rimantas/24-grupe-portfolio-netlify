@@ -42,7 +42,7 @@ class Services {
     }
 
 generateServices(myServices) {
-            return `<div class="item col-12 col-md-6 col-lg-4">
+            return `<div class="block col-12 col-md-6 col-lg-4">
                         <div class="icon fa fa-${myServices.icon}"></div>
                         <h4 class="title">${myServices.title}</h4>
                             <p class="description">${myServices.description}</p>
