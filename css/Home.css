@@ -1,6 +1,8 @@
 @import './components/reset.css';
+@import './components/variable.css';
 @import './components/layout.css';
 @import './components/header.css';
+@import './components/footer.css';
 
 /* CUSTOM HOME PAGE CSS */
 
