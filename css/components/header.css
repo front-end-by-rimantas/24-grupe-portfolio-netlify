@@ -4,7 +4,7 @@
     position: relative;      
     width: 100%;
     height: 100vh; 
-    background-image: url(/img/netlifyheader.png);
+    background-image: url(../../img/netlifyheader.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,23 +33,23 @@
 .header .navigation {
     display: inline-block;     
     width: 100%;      
-    position: absolute;
+    position: fixed;
     padding-top: 10px;
-    
-    
-    
+    overflow: hidden;   
 }
-.header .navigation .newlogo {
+
+.header .navigation .backtt .logo {
     display: block;    
     float: left;
     height: 40px;   
     margin-top: 20px;  
     padding-left: 20%;
+    cursor: pointer;
    
      
 }
 .header .navigation .links{
-   display: flex;   
+   display: block;   
    margin-left: 55%;
    margin-top: 10px;
   
@@ -66,6 +66,7 @@
     margin:  15px;   
     
 }  
+
     
 
 .header .main {
@@ -97,4 +98,27 @@
     
 }
 
+.header .main .social {
+    display: inline-block; 
+    padding: 10px; 
+    
+}
+.header .main .social .fa {
+    display: inline-block; 
+    font-size: 20px; 
+    width: 50px;     
+    line-height: 50px;
+    text-decoration: none;   
+    cursor: pointer; 
+    background: rgba(0, 0, 0, 0.2);   
+    color: #fff;  
+    border-radius: 50%;  
+    transition: all 0.4s;
+    text-align: center;
+    margin: 5px;
+    
+}
+.header .main .social .fa:hover {
+    background-color: darkviolet;
+}
 
