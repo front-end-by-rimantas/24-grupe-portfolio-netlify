@@ -1,4 +1,20 @@
 @import './components/reset.css';
+@import './components/variable.css';
 @import './components/layout.css';
+@import './components/header.css';
+
 
 /* CUSTOM HOME PAGE CSS */
+
+   /* hero (img1,h1, span, socials) */
+   /* about (img3, h2, h3, text, form, buttons, repeated items per JS)*/
+   /* Skills (h2, progress bars per JS) */
+   /* Resume (forms per JS...?) */
+   /* Counter (img, clock analogas tik statinis, skaiciai nesikeicia) */
+   /* Services (spans, h4, texts, blokaikeliais varintais (3x2), (2x3), (1x6) per JS galima) */
+   /* Portfolio (8 img,  3 atsiliepimai) */
+   /* Feedback  */
+   /* Blog (3 blokai sugrazina i headeri) */
+   /* Contacts (2 forms, 1 button) */
+   /* Footer (1 eilute) */
+   @import './components/footer.css';

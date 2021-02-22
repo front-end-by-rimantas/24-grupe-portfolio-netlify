@@ -9,9 +9,9 @@ _24 group portfolio website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://front-end-by-rimantas.github.io/24-grupe-portfolio/
+Site published at https://front-end-by-rimantas.github.io/24-grupe-portfolio-netlify/
 
-Design: [Martin](http://inventheme.com/themeforest/martin/)
+Design: [Netlify](https://new-per.netlify.app/demo-3.html)
 
 ## Project features
 
@@ -25,6 +25,11 @@ Design: [Martin](http://inventheme.com/themeforest/martin/)
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Regimantas: [Github](https://github.com/regis471) [LinkedIn](https://www.linkedin.com/in/regimantas-ignatjevas-5a1275203/)   
+Renata: [Github](https://github.com/Amoseta) [LinkedIn](https://www.linkedin.com/in/renata-alekniene-5935a275/)   
+Vilmante: [Github](https://github.com/vilmantech) [LinkedIn](https://www.linkedin.com/in/vilmante-chamentauskaite-7b8418134/)   
+Virginija: [Github](https://github.com/virginijatva) [LinkedIn](https://www.linkedin.com/in/virginija-tvaskien%C4%97-78a679154/)   
+Julija: [Github](https://github.com/JulijaPo)  [LinkedIn](https://www.linkedin.com/in/julija-popova-94734b1ba/)   
+Julija: [Github](https://github.com/Julijava) [LinkedIn](https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit)
 
-_susirašome savo vardus ir nuorodas į Github profilį ir/arba Linkedin profilį_
+
