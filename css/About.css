@@ -3,9 +3,11 @@
 @import './components/resume.css';
 
 
+
 /* CUSTOM ABOUT PAGE CSS */
 
    /* about (img3, h2, h3, text, form, buttons, repeated items per JS)*/
+   @import './about-me.css';
    /* Skills (h2, progress bars per JS) */
    /* Resume (forms per JS...?) */
    /* Counter (img, clock analogas tik statinis, skaiciai nesikeicia) */
@@ -17,4 +19,6 @@
    /* Blog (3 blokai sugrazina i headeri) */
    /* Contacts (2 forms, 1 button) */
    /* Footer (1 eilute) */
+
    @import './components/footer.css';
+

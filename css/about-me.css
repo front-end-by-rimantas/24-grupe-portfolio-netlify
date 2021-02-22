@@ -1,0 +1,124 @@
+.about {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+.about  > .container {
+    display: inline-block;      
+}
+.about  > .container > .row {
+    float: left;
+    text-align: left;
+}
+.about  > .container > .row > .photo {
+    float: left;
+    border: 10px solid #f4f5f8;
+
+}
+.photo > img{
+    display: inline-block;
+    width: 100%;
+}
+.container > .row > .text {
+    float: left;
+    padding: 0 15px 0 50px;
+}
+.text > .info {
+    border-bottom: 1px solid #f5f5f5;
+}
+.text > .info > .title {
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    color: #9C27B0
+}
+.text > .info > h6 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.text > .info > p {
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: #777;
+}
+.shortInfo {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+.shortInfo > .left-column{
+    float: left;
+    padding: 0 15px;
+    width: 100%;  
+}
+.shortInfo > .right-column{
+    float: left;
+    padding: 0 15px;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+li {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+li > span {
+    text-transform: capitalize;
+    padding: 0 8px;
+    color: #676767;
+}
+.btn{
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 18;
+    line-height: 20px;
+    margin: 20px 0;
+    text-align: center;
+    /*opacity: 0.9;*/
+
+}
+@media (min-width: 576px) {
+.shortInfo > .left-column,
+.shortInfo > .right-column{
+    width: 50%;
+}
+}
+
+@media (min-width: 768px) {
+.container > .row > [class*='col-']{
+    margin: 0;
+}
+.about  > .container > .row > .photo {
+    margin-left: var(--gap);
+}
+.shortInfo > .left-column,
+.shortInfo > .right-column{
+    width: 100%;
+}
+}
+
+@media (min-width: 992px) {
+.container > .row > [class*='col-']{
+     margin: 0;
+        
+}
+.about  > .container > .row > .photo {
+    margin-left: var(--gap);
+}
+.shortInfo > .left-column,
+.shortInfo > .right-column{
+    width: 50%;
+}
+}
