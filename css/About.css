@@ -11,6 +11,7 @@
    /* Skills (h2, progress bars per JS) */
    /* Resume (forms per JS...?) */
    /* Counter (img, clock analogas tik statinis, skaiciai nesikeicia) */
+   @import './components/counter.css';
    /* Services (spans, h4, texts, blokaikeliais varintais (3x2), (2x3), (1x6) per JS galima) */
 @import './components/myServices.css';
    /* Portfolio (8 img,  3 atsiliepimai) */

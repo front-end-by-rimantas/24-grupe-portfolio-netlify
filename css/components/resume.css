@@ -57,6 +57,14 @@
     position: relative;
 }
 
+.resume > .container > .row > .left-column > .resume-list {
+    border-right: 1px solid #f4f4f4;
+}
+
+.resume > .container > .row > .right-column > .resume-list {
+    border-left: 1px solid #f4f4f4;
+}
+
 .resume > .container > .row > .right-column {
     padding-left: 20px;
 }
@@ -111,14 +119,29 @@ h6 {
 @media (max-width: 768px) {
     .resume > .container > .row > .left-column {
         text-align: left;
-        margin-left: 32px;
+        margin: 20px 12px;
+        padding-left: 20px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column > .resume-list {
+        border-left: 1px solid #f4f4f4;
+        border-right: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column > .row-icon {
+       left: -18px;
     }
 }
 
 @media (max-width: 768px) {
     .resume > .container > .row > .left-column > .row-icon > .resume-icon{
         float: left;
-        left: 10px;
+        left: 0;
     }
 }
 
