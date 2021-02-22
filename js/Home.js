@@ -1,5 +1,7 @@
 // IMPORTS
 /* hero */
+import { socialicon} from './data/socialData.js';
+import { socials} from './components/socials.js';
 /* about me */
 /* skills */
 /* resume */
@@ -13,6 +15,7 @@
 
 // EXECUTION
 /* hero */
+socials ('.social',socialicon);
 /* about me */
 /* skills */
 /* resume */
