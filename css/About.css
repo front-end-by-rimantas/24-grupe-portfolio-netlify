@@ -2,6 +2,7 @@
 @import './components/layout.css';
 @import './components/resume.css';
 
+
 /* CUSTOM ABOUT PAGE CSS */
 
    /* about (img3, h2, h3, text, form, buttons, repeated items per JS)*/
@@ -10,8 +11,10 @@
    /* Counter (img, clock analogas tik statinis, skaiciai nesikeicia) */
    @import './components/counter.css';
    /* Services (spans, h4, texts, blokaikeliais varintais (3x2), (2x3), (1x6) per JS galima) */
+@import './components/myServices.css';
    /* Portfolio (8 img,  3 atsiliepimai) */
    /* Feedback  */
    /* Blog (3 blokai sugrazina i headeri) */
    /* Contacts (2 forms, 1 button) */
    /* Footer (1 eilute) */
+   @import './components/footer.css';

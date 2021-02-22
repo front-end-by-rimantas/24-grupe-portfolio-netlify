@@ -7,6 +7,8 @@
 import { Counter } from './components/counter.js';
 import { counterData } from './data/counterData.js';
 /* services */
+import { Services } from './components/myServices.js';
+import { myServicesData } from './data/myServicesData.js';
 /* portfolio */
 /* feedback */
 /* blog */
@@ -21,6 +23,7 @@ import { counterData } from './data/counterData.js';
 /* counter */
 new Counter ('.counterBlock', counterData)
 /* services */
+new Services('.item', myServicesData)
 /* portfolio */
 /* feedback */
 /* blog */
