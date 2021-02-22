@@ -118,7 +118,28 @@
     <!--Portfolio (8 img,  3 atsiliepimai)-->
     <!--Feedback -->
     <!--Blog (3 blokai sugrazina i headeri)-->
-    <!--Contacts (2 forms, 1 button)-->
+    <!--Contacts (2 forms, 1 button, h2 left column, h7 right column)-->
+    <div class="contact-row">
+        <div class="left-column">
+            <h2 class="title">Get in touch</h2>
+            <form class="contact-form">
+                <label for="name">Your full name here</label>
+                <input data-validation-rule="name" id="name" type="text" placeholder="Your full name here" required>
+                <label for="email">Your email here</label>
+                <input data-validation-rule="email" id="email" type="email" placeholder="Your email here" required>
+                <label for="message">Message for me</label>
+                <textarea data-validation-rule="text" id="message" placeholder="Message for me" required></textarea>
+                <button class="btn" type="submit">Send message</button>
+            </form>
+        </div>
+        <div class="right-column">
+            <h7 class="block-title">Contact info.</h2>
+            <p class="block-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, natus! Molestias itaque facere molestiae nesciunt explicabo.</p>
+            <p class="contact-detail">+00123456789</p>
+            <p class="contact-detail">demo@gmail.com</p>
+            <p class="contact-detail">3481 Melrose place, Los Angeles</p>
+        </div>
+    </div>
     <!--Footer (1 eilute)-->
     <footer class="container footer text-center">
         <div class="row">
