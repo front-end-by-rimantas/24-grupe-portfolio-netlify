@@ -1,6 +1,8 @@
 @import './components/reset.css';
+@import './components/variable.css';
 @import './components/layout.css';
 @import './components/header.css';
+
 
 /* CUSTOM HOME PAGE CSS */
 
@@ -15,3 +17,4 @@
    /* Blog (3 blokai sugrazina i headeri) */
    /* Contacts (2 forms, 1 button) */
    /* Footer (1 eilute) */
+   @import './components/footer.css';

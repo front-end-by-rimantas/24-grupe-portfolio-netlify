@@ -2,6 +2,7 @@
 @import './components/layout.css';
 @import './components/resume.css';
 
+
 /* CUSTOM ABOUT PAGE CSS */
 
    /* about (img3, h2, h3, text, form, buttons, repeated items per JS)*/
@@ -15,3 +16,4 @@
    /* Blog (3 blokai sugrazina i headeri) */
    /* Contacts (2 forms, 1 button) */
    /* Footer (1 eilute) */
+   @import './components/footer.css';
