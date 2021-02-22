@@ -7,6 +7,8 @@ import { socials} from './components/socials.js';
 /* resume */
 /* counter */
 /* services */
+import { Services } from './components/myServices.js';
+import { myServicesData } from './data/myServicesData.js';
 /* portfolio */
 /* feedback */
 /* blog */
@@ -21,6 +23,7 @@ socials ('.social',socialicon);
 /* resume */
 /* counter */
 /* services */
+new Services('.item', myServicesData)
 /* portfolio */
 /* feedback */
 /* blog */
