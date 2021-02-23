@@ -4,6 +4,7 @@
 .resume > .container{
     display: inline-block;
     width: 100%;
+    padding-bottom: 100px;
 }
 .resume > .container > .row > .title {
     display: inline-block;
@@ -16,6 +17,7 @@
 
 .resume > .container > .row > .title > h4 {
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .resume-span2 {
@@ -30,7 +32,7 @@
 }
 
 .resume > .container > .row > .left-column {
-    padding-right: 20px;
+    padding-right: 30px;
     text-align: right;
 }
 .resume > .container > .row > .left-column > .row-icon > .resume-icon{
@@ -66,7 +68,7 @@
 }
 
 .resume > .container > .row > .right-column {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .resume-list > li {
@@ -101,6 +103,7 @@ ul{
 .resume-list > li > .date {
     font-size: 12px; 
     margin-bottom: 20px; 
+    font-family: 'Roboto', sans-serif;
 }
 
 h5 {
@@ -108,12 +111,14 @@ h5 {
     font-size: 18px;
     text-transform: uppercase;
     color: #9D3BA8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h6 {
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -153,7 +158,7 @@ h6 {
 
 @media (max-width: 768px) {
     .resume > .container > .row > .right-column > .row-icon > .resume-icon{
-        left: 0;
+        left: -20px;
     }
 }
 
