@@ -4,6 +4,7 @@
 .resume > .container{
     display: inline-block;
     width: 100%;
+    padding-bottom: 100px;
 }
 .resume > .container > .row > .title {
     display: inline-block;
@@ -153,7 +154,7 @@ h6 {
 
 @media (max-width: 768px) {
     .resume > .container > .row > .right-column > .row-icon > .resume-icon{
-        left: 0;
+        left: -20px;
     }
 }
 
