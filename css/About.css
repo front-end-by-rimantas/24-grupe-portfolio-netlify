@@ -8,6 +8,7 @@
 
    /* about (img3, h2, h3, text, form, buttons, repeated items per JS)*/
    @import './about-me.css';
+   @import './components/button.css';
    /* Skills (h2, progress bars per JS) */
    /* Resume (forms per JS...?) */
    /* Counter (img, clock analogas tik statinis, skaiciai nesikeicia) */
