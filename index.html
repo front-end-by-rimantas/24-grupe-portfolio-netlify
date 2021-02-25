@@ -8,15 +8,23 @@
     <title>Portfolio</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./img/netlifyfavicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/About.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;400&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!--hero (img1,h1, span, socials)-->
-    <section class="hero">
-        <div class="short-row">
-            <img class="newlogo" src="/img/newlogo.png" alt="logo">
-            <nav class="navigation">
+    <!--header (img1,h1, span, socials)-->
+    <section class="header">
+        <div class="background">
+        <nav class="navigation" > 
+            <a class="backtt" href="#">      
+                <img class="logo" src="./img/newlogo.png" alt="logo">
+                <!-- <img class="logo2" src="./img/logoblack.png" alt="logo2"> -->
+            </a>
+            <div class="links">    
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
@@ -24,25 +32,146 @@
                 <a href="#">Client</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
-            </nav>
+            </div>
+        </nav>
+        <div class="main">
             <h2 class="welcometitle">Welcome</h2>
             <h1 class="title">I AM JOHN DOE</h1>
             <div>web developer/changing icon</div>
-            <div>social</div>
+            <div class="social"></div>
         </div>
-    </section>
+        </div>
+        </section>
     <!--about (img3, h2, h3, text, form, buttons, repeated items per JS)-->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="photo hidden visible-md col-md-4" ">
+                    <img src="./img/about.jpg" alt="photo">
+                </div>
+                
+                <div class="text col-12 col-md-8">
+                    <div class="info">
+                        <h4 class="title">About me</h4>
+                        <h6>I am a ui/ux designer and a human</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="shortInfo">
+                        <div class="left-column">
+                            <ul>
+                                <li>Name: <span>John Doe</span></li>
+                                <li>Age: <span>27</span></li>
+                            </ul>
+                        </div>
+                        <div class="right-column">
+                            <ul>
+                                <li>Email: <span>John_Doe@Gmail.com</span></li>
+                                <li>Location: <span>Los Angeles, USA</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                        <a href="#" class="btn horizontal-shutter">Download resume</a>
+                        <a href="#" class="btn horizontal-shutter" >Hire me</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
     <!--Skills (h2, progress bars per JS)-->
     <!--Resume (forms per JS...?)-->
+    <section class="resume">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12 title">
+                <h4><span class="resume-span">My</span><span class="resume-span2"> resume</span></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 left-column">
+                <div class="row-icon">
+                    <div class="resume-icon">
+                        <i class="fa fa-book"></i>
+                    </div>
+                </div>
+
+                <ul class="resume-list">
+                    <li>
+                        <span class="date">Jan 2004 - Dec 2006</span>
+                        <h5>Specialization course</h5>
+                        <h6>University of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span class="date">Jan 2004 - Dec 2006</span>
+                        <h5>Specialization course</h5>
+                        <h6>University of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span class="date">Jan 2004 - Dec 2006</span>
+                        <h5>Specialization course</h5>
+                        <h6>University of Studies, Poland, Cracow</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 right-column">
+                    <div class="row-icon">
+                        <div class="resume-icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
+                    </div>
+                <ul class="resume-list">
+                    <li>
+                        <span class="date">Jan 2004 - Dec 2006</span>
+                        <h5>Specialization course</h5>
+                        <h6>University of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span class="date">Jan 2004 - Dec 2006</span>
+                        <h5>Specialization course</h5>
+                        <h6>University of Studies, Poland, Cracow</h6>
+                    </li>
+                    <li>
+                        <span class="date">Jan 2004 - Dec 2006</span>
+                        <h5>Specialization course</h5>
+                        <h6>University of Studies, Poland, Cracow</h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            </div>
+        </div>
+    </section>
     <!--Counter (img, clock analogas tik statinis, skaiciai nesikeicia)-->
+   
+        <div class="container counter">
+            <div class="row counterBlock">
+            </div>
+        </div>
+   
     <!--Services (spans, h4, texts, blokaikeliais varintais (3x2), (2x3), (1x6) per JS galima)-->
+    <section class="container services bg-main">
+        <div class="row col-12">
+            <h2 class="title">My services</h2>
+        </div>
+        <div class="row item">
+        </div>
+    </section>
     <!--Portfolio (8 img,  3 atsiliepimai)-->
     <!--Feedback -->
     <!--Blog (3 blokai sugrazina i headeri)-->
     <!--Contacts (2 forms, 1 button)-->
     <!--Footer (1 eilute)-->
+    <footer class="container footer text-center">
+        <div class="row">
+            <div class="col-12">
+                 <h6>Copy right &copy; By A-Shawky 2017 | All Rights Reserved.</h6>  
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/Home.js" type="module"></script>
+    
 </body>
 
 </html>

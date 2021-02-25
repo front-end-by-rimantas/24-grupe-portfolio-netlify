@@ -1,0 +1,168 @@
+.resume {
+    padding: 100px;
+}
+.resume > .container{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.resume > .container > .row > .title {
+    display: inline-block;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.resume > .container > .row > .title > h4 {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resume-span2 {
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+}
+
+.resume-span {
+    color: #9c27b0;
+    border-bottom: 1px solid #9c27b0;
+    padding-bottom: 10px;
+}
+
+.resume > .container > .row > .left-column {
+    padding-right: 30px;
+    text-align: right;
+}
+.resume > .container > .row > .left-column > .row-icon > .resume-icon{
+    float: right;
+    right: -20px;
+}
+
+.resume > .container > .row > .right-column > .row-icon > .resume-icon{
+    left: -20px;
+}
+
+.resume-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #2e353e;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.row-icon {
+    height: 40px;
+    position: relative;
+}
+
+.resume > .container > .row > .left-column > .resume-list {
+    border-right: 1px solid #f4f4f4;
+}
+
+.resume > .container > .row > .right-column > .resume-list {
+    border-left: 1px solid #f4f4f4;
+}
+
+.resume > .container > .row > .right-column {
+    padding-left: 30px;
+}
+
+.resume-list > li {
+    padding: 30px 30px 10px;
+    position: relative;
+}
+
+.left-column > .resume-list > li::after {
+    right: -6px;
+}
+
+.right-column > .resume-list > li::after {
+    left: -6px;
+}
+
+.resume-list > li::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #d6b161;
+    background-color: #2e353e;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.resume-list > li > .date {
+    font-size: 12px; 
+    margin-bottom: 20px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    margin: 15px 0 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #9D3BA8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column {
+        text-align: left;
+        margin: 20px 12px;
+        padding-left: 20px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column > .resume-list {
+        border-left: 1px solid #f4f4f4;
+        border-right: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column > .row-icon {
+       left: -18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .left-column > .row-icon > .resume-icon{
+        float: left;
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-column > .resume-list > li::after {
+        left: -6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resume > .container > .row > .right-column > .row-icon > .resume-icon{
+        left: -20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .resume-list > li {
+        padding: 30px 10px 10px 30px;
+}
