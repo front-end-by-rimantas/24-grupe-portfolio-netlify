@@ -4,6 +4,8 @@ import { socialicon} from './data/socialData.js';
 import { socials} from './components/socials.js';
 /* about me */
 /* skills */
+import { progressBarData } from "./data/progressBarData.js";
+import { ProgressBar } from "./components/progressBar.js";
 /* resume */
 /* counter */
 import { Counter } from './components/counter.js';
@@ -22,6 +24,8 @@ import { myServicesData } from './data/myServicesData.js';
 socials ('.social',socialicon);
 /* about me */
 /* skills */
+new ProgressBar ('./left-column', progressBarData);
+new ProgressBar ('./right-column', progressBarData);
 /* resume */
 /* counter */
 new Counter ('.counterBlock', counterData)
