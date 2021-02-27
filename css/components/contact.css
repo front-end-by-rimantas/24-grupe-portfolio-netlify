@@ -26,17 +26,36 @@
 .label {
     display: inline-block;
     float: left;
-    /* display: none;
-    font-size: 0;
-} */
-
-.label > i{
-    display: inline-block;
+    width: 10%;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    border-radius: 5px 0 0 5px;
 }
 
-input {
+.label > .fa{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input {
     display: inline-block;
     float: left;
+    width: 90%;
+    padding: 15px;
+    resize: none;
+    border: none;
+}
+
+.textarea{
+    display: inline-block;
+    float: left;
+    width: 90%;
+    padding: 15px;
+    resize: none;
+    border: none;  
 }
 
 /* right side */
@@ -44,4 +63,5 @@ input {
     display: inline-block;
     width: 40%;
     float: right;
+    background-image: url(../img/contact.jpg);
 }
