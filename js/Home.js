@@ -13,6 +13,8 @@ import { Services } from './components/myServices.js';
 import { myServicesData } from './data/myServicesData.js';
 /* portfolio */
 /* feedback */
+import {Carousel } from './components/carousel/Carousel.js';
+import { feedbackData } from './data/feedbackData.js';
 /* blog */
 /* contacts */
 /* footer */
@@ -29,6 +31,8 @@ new Counter ('.counterBlock', counterData)
 new Services('.item', myServicesData)
 /* portfolio */
 /* feedback */
+const feedback = new Carousel(feedbackData);
+feedback.init();
 /* blog */
 /* contacts */
 /* footer */
