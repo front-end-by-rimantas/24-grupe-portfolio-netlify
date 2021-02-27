@@ -23,25 +23,25 @@
     border-right: 1px solid #fff;
 }
 
-.block > .icon {
+.services > .item > .block > .icon {
     display: inline-block;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.block > .title {
+.services > .item > .block > .title {
     display: inline-block;
     width: 100%;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
-.block > .description {
+.services > .item > .block > .description {
     display: inline-block;
     width: 100%;
     margin-bottom: 16px;  
 }
-.block > .fa{
+.services > .item > .block > .fa{
     width:64px;
     height: 64px;
     line-height: 64px;
@@ -51,10 +51,10 @@
     background-color:white;
     transition: all 0.8s;
 }
-.block > .fa::before{
+.services > .item > .block > .fa::before{
     font-size: 32px; 
 }
-.block > .fa:hover{
+.services > .item > .block > .fa:hover{
     background-color:#9c27b0;
     color: white;
     box-shadow: 0 15px 30px 0 #0005;
