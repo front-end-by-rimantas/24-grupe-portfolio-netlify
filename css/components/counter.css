@@ -8,10 +8,18 @@
     background-attachment: fixed;
     position: relative;   
     width: 100%;
-    font-family: var(--main-font)
-   }
-
+}
+.overlay::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
 .counter > .counterBlock{
+    position: relative;
     float: left;
     padding: 100px 0;
 }
@@ -19,7 +27,7 @@
 .counter > .counterBlock > .block{
     display: inline-block;
     text-align: center;
-    font-family: var(--main-font)
+    font-family: 'Monsterrat'
 }
 
 .counter > .counterBlock > .block > .icon{
