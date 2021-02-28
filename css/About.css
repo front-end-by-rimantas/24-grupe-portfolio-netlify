@@ -17,6 +17,8 @@
    /* Portfolio (8 img,  3 atsiliepimai) */
    /* Feedback  */
    /* Blog (3 blokai sugrazina i headeri) */
+   @import "./components/blog.css";
+   /* @import "./components/utilities.css"; */
    /* Contacts (2 forms, 1 button) */
    /* Footer (1 eilute) */
 
