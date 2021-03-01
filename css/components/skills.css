@@ -2,6 +2,7 @@
     display: inline-block;
     width: 100%;
     padding: 100px 0;
+    background-color: #F4F5F8;
 }
 
 .skills > .container {
@@ -15,6 +16,7 @@
 }
 
 .skills > .container > .row > .title > h4 {
+    display: inline-block;
     width: 100%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -33,7 +35,6 @@
 .skills > .container > .row > .title > h4 > .skills-span2 {
     padding-bottom: 10px;
     font-size: 2.2rem;
-    text-transform: capitalize;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,26 +43,23 @@
     width: 100%;
     float: left;
     text-align: left;
+    padding: 0 70px;
 }
 
 .skills > .container > .row-pr > .left-column {
     display: inline-block;
     width: 50%;
-    float: left;
-    padding: 0 20px;
 }
 
 .skills > .container > .row-pr > .right-column {
     display: inline-block;
     width: 50%;
-    float: left;
-    padding: 0 15px;
+    padding: 0 0 0 10px;
 }
 
 .progress-bar {
     display: inline-block;
-    width: 100%;
-    margin: 0 0 0 20px;
+    width: 90%;
     margin-bottom: 30px;
 }
 
@@ -71,22 +69,31 @@
 
 .progress-bar > .texts {
     display: inline-block;
-    width: 100%;
-    margin-bottom: 15px;   
+    width: 90%;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
 }
 
 .progress-bar > .texts > label {
-    display: inline-block;
-    float: left;
-    font-size: .8rem;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-transform: capitalize;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 0 4px;
 }
 
 .progress-bar > .texts > value {
-    display: inline-block;
-    float: right;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+    font-size: 12px;
+    font-family: #9c27b0;
+    position: absolute;
 }
 
 .progress-bar > .bar {
@@ -95,8 +102,7 @@
     text-align: left;
     width: 100%;
     height: 5px;
-    border-radius: 50px;
-    background-color: #ddd;
+    background-color: #fff;
 }
 
 .progress-bar > .bar > .progress {
@@ -111,7 +117,8 @@
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-color: var(--secondary-color);
+    background-color: #9c27b0;
+    border-radius: 40px;
     animation-name: loading;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -122,6 +129,52 @@
         width: 0;
     }
     100% {
-        width: 90%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 780px) {
+    .skills > .container > .row-pr > .left-column,
+    .skills > .container > .row-pr > .right-column  {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills > .container > .row-pr > .left-column,
+    .skills > .container > .row-pr > .right-column  {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        padding: 0 0 0 40px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .skills > .container > .row-pr {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .skills > .container > .row-pr > .left-column,
+    .skills > .container > .row-pr > .right-column  {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        padding: 0 0 0 40px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .progress-bar  {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        margin-top: 0px;
     }
 }
