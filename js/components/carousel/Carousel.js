@@ -2,6 +2,7 @@ class Carousel {
     constructor(params) {
         this.selector = params.selector;
         this.list = params.list;
+        this.dashControlsVisible = true;
 
         this.DOM = null;
     }
@@ -37,16 +38,23 @@ class Carousel {
     }
 
     render() {
-        this.DOM.innerHTML = this.renderList() + this.renderControls();
+        this.DOM.classList.add('carousel');
+
+        let HTML = '';
+        HTML += this.renderList();
+        if(this.dashControlsVisible) {
+            HTML += this.renderControls();
+        }
+        this.DOM.innerHTML = HTML;
 
     }
 
     renderList() {
-        let HTML = '<div class="carousel-list">';
+        let HTML = '<div class="list">';
 
         for(const item of this.list) {
             if (this.isValidListItem(item)) {
-                HTML += `<div>CAROUSEL ITEM</div>`;
+                HTML += `<div class="item"><div class="content">CAROUSEL ITEM</div></div>`;
             }
         }
 
@@ -56,9 +64,9 @@ class Carousel {
     }
 
     renderControls() {
-        let HTML = '<div class="dash active"></div>';
+        let HTML = `<div class="controls"><div class="dash active"></div>`;
         HTML += '<div class="dash"></div>'.repeat(this.list.length -1);
-
+        HTML += '</div>';
         return HTML;
     }
 
