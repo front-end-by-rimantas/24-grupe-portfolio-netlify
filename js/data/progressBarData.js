@@ -14,7 +14,12 @@ const progressBarData = [
     {
         label: 'Development', 
         value: 80
-    },
+    }    
+]
+
+export { progressBarData }
+
+const progressBarDataRight = [
     {
         label: 'Html/css', 
         value: 95
@@ -33,4 +38,4 @@ const progressBarData = [
     }
 ]
 
-export { progressBarData }
+export { progressBarDataRight }

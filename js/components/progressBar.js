@@ -62,31 +62,14 @@ class ProgressBar {
     
     generateProgressBar(progressBar){
         console.log(progressBar);
-        return `<div class="row">
-                    <div class="left-column">
-                        <div class="progress-bar">
-                            <div class="texts">
-                                <div class="label">${progressBar.label}</div>
-                                <div class="value">${this.formatNumber(progressBar.value)}%</div>
-                            </div>
-                            <div class="bar">
-                                <div class="progress" style="width: ${progressBar.value}%;">
-                                    <div class="loading"></div>
-                                </div>
-                            </div>
-                        </div>
+        return `<div class="progress-bar">
+                    <div class="texts">
+                        <div class="label">${progressBar.label}</div>
+                            <div class="value">${this.formatNumber(progressBar.value)}%</div>
                     </div>
-                    <div class="right-column">
-                        <div class="progress-bar">
-                            <div class="texts">
-                                <div class="label">${progressBar.label}</div>
-                                <div class="value">${this.formatNumber(progressBar.value)}%</div>
-                            </div>
-                            <div class="bar">
-                                <div class="progress" style="width: ${progressBar.value}%;">
-                                    <div class="loading"></div>
-                                </div>
-                            </div>
+                    <div class="bar">
+                        <div class="progress" style="width: ${progressBar.value}%;">
+                            <div class="loading"></div>
                         </div>
                     </div>
                 </div>`;
