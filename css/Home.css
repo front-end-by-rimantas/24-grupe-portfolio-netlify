@@ -17,6 +17,6 @@
    @import './components/carousel.css';
    @import './components/feedback.css';
    /* Blog (3 blokai sugrazina i headeri) */
-   /* Contacts (2 forms, 1 button) */
+   @import './components/contact.css';
    /* Footer (1 eilute) */
    @import './components/footer.css';
