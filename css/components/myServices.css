@@ -6,12 +6,36 @@
     width: 100%;
     padding: 100px 0;
     text-align: center;
+    position: relative;
 }
-.services > .row > .title {
-    float: left;
+
+.services > .row > .title  {
+    display: inline-block;
     width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
     text-transform: capitalize;
+    font-size: 36px;
 }
+
+.services-span2 {
+    border-bottom: 1px solid #f5f5f5;
+    color: #484848; 
+    padding-bottom: 10px; 
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 10%); 
+    font-weight: 400;
+}
+
+.services-span {
+    color: #9c27b0;
+    border-bottom: 1px solid #9c27b0;
+    padding-bottom: 10px;
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 10%);
+    font-weight: 400;
+}
+
 .services > .item {
     margin-top: 50px;
 }
@@ -21,27 +45,35 @@
     padding: 32px 24px; 
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
+    
 }
 
-.block > .icon {
+.services > .item > .block > .icon {
     display: inline-block;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.block > .title {
+.services > .item > .block > .title {
     display: inline-block;
     width: 100%;
     margin-bottom: 20px;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #232323;
 }
 
-.block > .description {
+.services > .item > .block > .description {
     display: inline-block;
     width: 100%;
     margin-bottom: 16px;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    color: #777;
 }
-.block > .fa{
+.services > .item > .block > .fa{
     width:64px;
     height: 64px;
     line-height: 64px;
@@ -51,14 +83,33 @@
     background-color:white;
     transition: all 0.8s;
 }
-.block > .fa::before{
+.services > .item > .block > .fa::before{
     font-size: 32px; 
 }
-.block > .fa:hover{
+.services > .item > .block > .fa:hover{
     background-color:#9c27b0;
     color: white;
     box-shadow: 0 15px 30px 0 #0005;
 }
+@media (min-width: 768px) {
+    .services > .item > .block {
+        margin: var(--half-gap);
+    }
+}
 
+@media (min-width: 992px) {
+    .services:after {
+        content: "";
+        position: absolute;
+        left: 5%;
+        top: 54%;
+        background-color: #fff;
+        width: 90%;
+        height: 1px;
+    }
+    .services > .item > .block {
+         margin: var(--half-gap);
+    }
+}   
 
 
