@@ -1,8 +1,10 @@
 class Carousel {
-    constructor(params) {
+    constructor(params, renderingFunction) {
         this.selector = params.selector;
         this.list = params.list;
         this.dashControlsVisible = true;
+
+        console.log(renderingFunction());
 
         this.DOM = null;
     }
