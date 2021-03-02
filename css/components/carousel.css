@@ -1,0 +1,37 @@
+.carousel {
+   overflow: hidden;
+   text-align: center;
+}
+
+.carousel > .list {
+    display: inline-block;
+    width: 300%;
+    margin-left: 0%;
+    transition: all 1s;
+}
+
+.carousel > .list > .item {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+.carousel > .list > .item > .content {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #0003;
+}
+
+.carousel > .controls {
+
+}
+
+.carousel > .controls > .dash {
+
+}
+
+.carousel > .controls > .dash.active {
+
+}
